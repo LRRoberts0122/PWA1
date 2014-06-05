@@ -16,8 +16,6 @@
 // invocation: When you call a function.
 // element: The items in an array.
 
-    var test = "I'm testing...";
-
 var name = getName();
 var length = Math.random() * 10;
 var width = Math.random() * 10;

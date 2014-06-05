@@ -5,7 +5,6 @@
 * Duel Assignment
 * Note: I had messed up my Repository, and could no longer commit changes, so I remade the repo.
 */
-var testing = "testing123";
 var _roundCounter = 0;
 var _displayText = document.getElementById("round_number").getElementsByTagName("input")[0];
 var _maxRounds = 10; // Whatever you want.
