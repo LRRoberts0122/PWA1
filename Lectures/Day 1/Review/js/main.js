@@ -40,7 +40,7 @@ console.log("The Lowest Number is " + myNumber);
 console.log(lowestNum(data));
 console.log(getAverage(data));
 
-console.log(findNum(data2,4));
+console.log(findNum(data2,10));
 
 greetings(name);
 console.log("The area is: " + getArea(length,width));
@@ -87,8 +87,6 @@ function getAverage(arr){
 // FIND NUMBER
 function findNum(newarr, num){
     for(var i = 0; i < newarr.length; i++){
-//        console.log("Num" + num);
-//        console.log("Arr" + newarr[i]);
         if(newarr[i] == num){
             return true;
         }
